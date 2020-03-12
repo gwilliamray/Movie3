@@ -19,7 +19,7 @@ namespace Movie3.Models
         public int? Year { get; set; }
 
         [Required (ErrorMessage ="You must enter a Rating")]
-        [Range(1,5,ErrorMessage ="Rating must be between 1 and 5")]
+        [Range(1,6,ErrorMessage ="Rating must be between 1 and 5")]
         public int? Rating { get; set; }
 
         [Required(ErrorMessage ="Please enter a genre.")]
